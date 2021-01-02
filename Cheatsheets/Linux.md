@@ -61,7 +61,7 @@
 |Command|Example|Notes|
 |--|--|--|
 |`curl`|`curl https://google.com`|
-||`curl -w "dnslookup: %{time_namelookup} | connect: %{time_connect} | appconnect: %{time_appconnect} | pretransfer: %{time_pretransfer} | starttransfer: %{time_starttransfer} | total: %{time_total} | size: %{size_download}\n" -so /dev/null "https://google.com"`|Show detailed time measurements - [[Cloudflare] A question of timing](https://blog.cloudflare.com/a-question-of-timing/)
+||`curl -w "dnslookup: %{time_namelookup} ; connect: %{time_connect} ; appconnect: %{time_appconnect} ; pretransfer: %{time_pretransfer} ; starttransfer: %{time_starttransfer} ; total: %{time_total} ; size: %{size_download}\n" -so /dev/null "https://google.com"`|Show detailed time measurements - [[Cloudflare] A question of timing](https://blog.cloudflare.com/a-question-of-timing/)
 
 
 
