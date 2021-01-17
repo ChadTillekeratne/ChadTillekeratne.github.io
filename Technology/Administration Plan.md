@@ -1,4 +1,4 @@
-
+When you are responsible for administering an application/service, it's important to... 
 
 - Observability
 - Monitoring

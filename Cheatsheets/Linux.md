@@ -56,6 +56,10 @@
 |`iftop`|||
 |`netstat -plnt`||Currently listening ports|
 |`nc`|`nc -z -v <host> <port>`|Check if a port is listening|
+|`tcpdump`||Network trace capture; [tcpdump examples](https://hackertarget.com/tcpdump-examples/)
+||`$ tcpdump -i <interface> -s 65535 -w <file>`|Dump to file (Wireshark)
+
+https://hackertarget.com/tcpdump-examples/
 
 # HTTP
 |Command|Example|Notes|
