@@ -39,6 +39,7 @@
 |Scenario | Sub-Scenario | Windows | Linux
 |--|--|--|--|
 |Process|List|`tasklist`|`top`, `htop`|
+||Activity|[[SysInternals] Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)|`strace`
 |Network|Trace||`netsh trace start persistent=yes capture=yes tracefile=c:\temp\my-trace.etl`|`tcpdump`
 ||Open connections|
 ||Listening Ports|`netstat -aof `|`netstat -plnt` 
