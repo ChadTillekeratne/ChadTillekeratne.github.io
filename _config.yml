@@ -1,0 +1,7 @@
+#Jekyll configuration
+name: Chad
+description: Chad
+url: "http://chadtillekeratne.github.io"
+markdown: karmdown
+highlighter: rougue
+theme: minima
