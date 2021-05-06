@@ -5,7 +5,7 @@ The table is not ground-breaking, nor authorative for all functions, rather a st
 - **New Employee Onboarding** - Joining a group can be intimidating, you go from knowing your past group to jumping into a new area.  It can be hard to see the forest from the trees.  This table is meant to be the top of the funnel that allows individuals to dive deeper.
 - **Setting a North Star** - Technology is always evolving, as services mature and grow, it's important to understand where we are today and where we want to be in the future.  Adding additional columns to understand the areas for change can be helpful to understand where we're going.
 
-It is okay to not have a story for each functionality/capability, however it is important for the team to have a consisten understanding.
+It is okay to not have a story for each functionality/capability, however it is important for the team to have a consistent understanding.
 
 ## OKR
 _What is successful?  How do we measure success?_
