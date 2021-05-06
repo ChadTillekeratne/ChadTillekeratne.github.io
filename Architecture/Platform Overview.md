@@ -19,7 +19,7 @@ References:
 |--|--|--|--|
 |Development
 ||Developer Fungability - Developers are able to work on any project |
-||Developer an deploy a change to development environment in less than 1 hour
+||Developer can deploy a change to development environment in less than 1 hour
 ||Development Velocity - Developers have a known and rapid process to get a feature into master
 ||Release Velocity - Developers are able to rapidly and safely get changes in production
 |||Master to Production in less than 5 business days
