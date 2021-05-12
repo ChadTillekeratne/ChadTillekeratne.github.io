@@ -1,33 +1,11 @@
 ## Purpose
 Creating and operating a service has similiar requirements, functions, and capabilities no matter the industry or implementation.  The table below is meant to summarize those functions.  
 
-The table is not ground-breaking, nor authorative for all functions, rather a starting point for understanding the composition of a service and operations. I've found this exercise value for:
+The table is not ground-breaking, nor authorative for all functions, rather a starting point for understanding the composition of a service and operations. I've found this exercise valuable for:
 - **New Employee Onboarding** - Joining a group can be intimidating, you go from knowing your past group to jumping into a new area.  It can be hard to see the forest from the trees.  This table is meant to be the top of the funnel that allows individuals to dive deeper.
-- **Setting a North Star** - Technology is always evolving, as services mature and grow, it's important to understand where we are today and where we want to be in the future.  Adding additional columns to understand the areas for change can be helpful to understand where we're going.
+- **Setting a North Star** - Technology is always evolving, as services mature and grow, it's important to understand where we are today and where we want to be in the future.  Adding additional columns (Current, vNext, etc.) to understand the areas for change can be helpful to understand where we're going.
 
 It is okay to not have a story for each functionality/capability, however it is important for the team to have a consistent understanding.
-
-## OKR
-_What is successful?  How do we measure success?_
-
-Objectives Key Results is a goal setting framework to help understand our desired outcome and how we will measure our success to achieving.
-
-References:
-  - https://www.whatmatters.com/get-started/
-
-|Area|Objective|Key Results|Notes
-|--|--|--|--|
-|Development
-||Developer Fungability - Developers are able to work on any project |
-||Developer can deploy a change to development environment in less than 1 hour
-||Development Velocity - Developers have a known and rapid process to get a feature into master
-||Release Velocity - Developers are able to rapidly and safely get changes in production
-|||Master to Production in less than 5 business days
-|Livesite|
-||Service availability excedes customer SLAs|
-|||Scenario Reliability
-|Quality
-||Services are secure
 
 ## Service Functionality Table
 |Category|Area|Sub Sub-Area|Sample|Description
@@ -44,9 +22,9 @@ References:
 ||Brainstorm
 |Architecture
 ||Architecture Process Standards||TOGAF
-||API Guidelines
+||API Guidelines||[Microsoft API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md)
 ||Architecture Design Documentaton
-||Architecture Approval
+||Architecture Approval||Architecture Board
 |Compliance Requirements|
 ||Security Requirements|
 ||Privacy Requirements|
@@ -65,10 +43,10 @@ References:
 ||Rate Limitting and Throttling| Per Client IP
 |||Per Tenant
 |||Per Functionality
-||Authentication||OAUTH (Google, Twitter)
+||Authentication||OAUTH (Google, Twitter, MSA, etc.)
 ||Authorization||JWT Claims
 ||Service Code Framework|Service Code|C# .NET 5.0
-|Experimentation
+|Flighting and Experimentation
 ||Segmentation
 ||//TODO:
 |Livesite and Operations|||
@@ -78,7 +56,7 @@ References:
 |||Events
 |||Metrics
 |||Metrics - Long Term Retention
-|||Dashboards||Grafana, Azure Dashboard
+|||Dashboards|Grafana, Azure Dashboard
 |||Reliability Reporting
 ||Monitoring and Alerting|Tool
 ||Troubleshooting and Debugging|Process Memory Dump (on-demand)
@@ -168,13 +146,13 @@ References:
 |Environments
 ||//TODO: Local Development Machine, Dev, PPE, Prod
 |Incident Management
-||Tooling||Service Now, Pager Duty
-|||Paging
+||Tooling|
+|||Paging|Service Now, Pager Duty
 ||Troubleshooting Guides 
 ||Automated Remediation Responses
 ||Customer Outage Reporting
-|||Dashboard
-|||Pro-active Alerts (SMS, Email, etc.)
+|||Dashboard| Website: status.{myservice.com}, Twitter: @{MyService}Support
+|||Push Alerts (SMS, Email, etc.)
 ||On-Call Rotation
 ||Customer Support|Ticket System|Zen Desk|
 |||Social Analysis||For a public service, analyzing social media sentiment can be helpful to understand issues that monitoring might have missed (or upstream dependencies)
@@ -186,6 +164,9 @@ References:
   - Security Incident Management
 - Documentation Management
 - Security Operations
+  - Vulnerbility Management
+  - Inventory
+- ...
 
 ## KPIs
 |Category|Metric|Target|Calculation|Notes
@@ -196,10 +177,11 @@ References:
 ||Response Time|{Dependent on API}
 ||Call Rate|Vanity
 |Incident Management
-||MTTN (time to notification)
-||MTTE (time to engagement)
-||time to status update
-||MTBF (time between failures)
+||MTTN (time to notification)| 5 minutes
+||MTTE (time to engagement)|10 minutes
+||time to status update| 30 minutes
+||MTBF (time between failures)|2 weeks
+
 
 ## Software Development Lifecycle (SDLC)
 
