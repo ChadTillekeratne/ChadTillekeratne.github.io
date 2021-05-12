@@ -6,7 +6,7 @@
 |--|--|--|--|--|
 |Failed service location (DNS)|`nodename nor servname provided, or not known (<host>:<port>)`||`nslookup`, `dig`
 |Port not listening|||`nc -z -v <host> <port>` |`telnet <host> <port>`
-|SSL negociation fialure
+|SSL negociation failure
 |SSL trust failure (client validation)
 |Connection Timeout (client, server)
 |Failued authentication (401,403, close connection)
