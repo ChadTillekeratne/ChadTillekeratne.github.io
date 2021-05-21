@@ -6,11 +6,21 @@
 
 ## Scope
 ### In-Scope
+- ...
+- ...
 ### Out-of-Scope
-
-## Roles
+- ...
+- ...
 
 ## Requirements
+
+### Roles
+
+|Name|Example|Description
+|--|--|--|
+|||
+
+### User Stories
 
 As a {role}, we {Priority=must|would be nice} have, {requirement}, in order to {reason}
 
@@ -19,3 +29,5 @@ As a {role}, we {Priority=must|would be nice} have, {requirement}, in order to {
 |||||
 
 ## Deliverables
+
+- ...
