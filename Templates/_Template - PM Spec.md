@@ -1,7 +1,7 @@
 ## Summary
 {Elevator pitch}
 
-### History
+### History / Current State
 {Relevant}
 
 ## Scope
@@ -11,6 +11,11 @@
 ### Out-of-Scope
 - ...
 - ...
+
+## Measurables
+|KPI Name|Target|Current|Calculation|Notes|
+|--|--|--|--|--
+||||||
 
 ## Requirements
 
@@ -29,5 +34,9 @@ As a {role}, we {Priority=must|would be nice} have, {requirement}, in order to {
 |||||
 
 ## Deliverables
+
+- ...
+
+# Risks and Constraints
 
 - ...
