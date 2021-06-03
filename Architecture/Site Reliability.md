@@ -34,6 +34,10 @@ Some areas that an SRE has ownership or respoinsbility in are (and not limited t
   - Identify _what matters_ and create objective measures to identify success
 - Standardize and Commonize
   - Managing commonality is more scalable than special cases
+- Speek the same language
+  - Snap to industry standard terminology where possible
+- Declarative and implicite
+  - If it exists, it meets compliance.  It's secure, follow standards
 
 ## Objective and Key Results (OKR)
 _What is successful?  How do we measure success?_
