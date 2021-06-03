@@ -1,0 +1,28 @@
+- Impact: What was the impact of the issue?
+  - Public Customers - What failed for public customers?
+    - How many users were impacted?
+    - How many tenants/resources/etc were impacted?
+    - Did this violate the SLA with the customer?
+  - Internal Consumers - What failed of internal services calling your service?  
+    - What depdendent services were impacted?
+    - What was the impact the depdendent services saw?
+    - What was the failure rate per service?
+- Observability
+  - What dashboards show the outage impact for your service?
+- Alerting: What alerts did you get for your service?
+  - List with: time, severity, id, title
+- Reliability:
+  - Were there reliability mechanisms in place? (retries, circuit breakers, etc.)
+    - Did they respond as designed?
+- Repair Items:
+  - Reliability
+    - For your service, are there opportunities to handle this situation more gracefully (caches, fallback patterns, etc.)?
+    - Did your service handle the situation as designed and expected?
+  - Alerting
+    - Did alerts meet the MTTN (time to notification) OLA?
+    - Did alerts properly reflect imapct severity?
+  - Observability
+    - Metrics, events, dashboards
+  - Knowledge/documentation
+    - As an on-call engineer, did you udnerstand that you had this depdendency and har resource ready to help understand the situation?
+    - Did you have an end-to-end view?
